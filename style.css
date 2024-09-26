@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('cordel-moderno.txt') format('truetype'); 
+
+    font-family: 'fonte';
+    src: url('Sriracha-Regular.ttf') format('truetype');
+
+  }
+
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+
+header {
+    background-color: black;
+    height: 250px;
+    width: auto;
+    
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 100px;
+    font-family: 'MinhaFonte', sans-serif;
+
+}
+
+main > article > p {
+    font-family: 'fonte', sans-serif ;
+    font-size: 40px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
+    
+   
+    
+}
+
+div#gato {
+    background-image: url(imagens/gato.jpg);
+    background-attachment: fixed;
+    box-shadow: 10px 1px 5px 1px;
+    background-size: cover;
+    font-size: 40px;
+    height: 720px;
+        
+}
+
+div#foto > p {
+   background-color: #27282a7a;
+   color: whitesmoke;
+   width: 480px;
+   margin-left: 13px;
+   
+   
+     
+}
+
+
+div > p {
+    padding: 28px;
+   
+   
+}
+
+div#cachorro {
+    background-image: url(imagens/cachorro.jpg);
+    background-attachment: fixed;
+    box-shadow: 10px 1px 5px 1px;
+    background-size: cover;
+    font-size: 40px;
+    height: 720px;
+}
+
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    color: rgb(0, 153, 255);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 20px;
+}
